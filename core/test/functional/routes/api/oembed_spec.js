@@ -25,7 +25,7 @@ describe('Oembed API', function () {
 
     describe('success', function () {
         it('can fetch an embed', function (done) {
-            let requestMock = nock('http://www.youtube.com')
+            let requestMock = nock('https://www.youtube.com')
                 .get('/oembed')
                 .query(true)
                 .reply(200, {

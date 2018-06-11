@@ -5,7 +5,7 @@ const should = require('should');
 
 describe('Oembed API', function () {
     it('can fetch embed from supported provider', function (done) {
-        let requestMock = nock('http://www.youtube.com')
+        let requestMock = nock('https://www.youtube.com')
             .get('/oembed')
             .query(true)
             .reply(200, {
@@ -53,7 +53,7 @@ describe('Oembed API', function () {
     });
 
     it('returns error for fetch failure', function (done) {
-        let requestMock = nock('http://www.youtube.com')
+        let requestMock = nock('https://www.youtube.com')
             .get('/oembed')
             .query(true)
             .reply(500);

@@ -480,7 +480,7 @@ bcryptjs@2.4.3:
   version "2.4.3"
   resolved "https://registry.yarnpkg.com/bcryptjs/-/bcryptjs-2.4.3.tgz#9ab5627b93e60621ff7cdac5da9733027df1d0cb"
 
-bellajs@^7.2.0:
+bellajs@^7.2.2:
   version "7.2.2"
   resolved "https://registry.yarnpkg.com/bellajs/-/bellajs-7.2.2.tgz#dc6f8c13acb248dc2ef1b46d01286a16ca31025a"
 
@@ -4246,13 +4246,13 @@ object.pick@^1.2.0, object.pick@^1.3.0:
   dependencies:
     isobject "^3.0.1"
 
-oembed-parser@1.0.9:
-  version "1.0.9"
-  resolved "https://registry.yarnpkg.com/oembed-parser/-/oembed-parser-1.0.9.tgz#912b9734597aa938a9e6d77802a966a451a06dce"
+oembed-parser@1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/oembed-parser/-/oembed-parser-1.1.0.tgz#1e61c2e89c200d9bbc46fceee1b44698b5011450"
   dependencies:
-    bellajs "^7.2.0"
+    bellajs "^7.2.2"
     node-fetch "^2.1.2"
-    promise-wtf "^1.2.2"
+    promise-wtf "^1.2.4"
 
 on-finished@^2.3.0, on-finished@~2.3.0:
   version "2.3.0"
@@ -4779,7 +4779,7 @@ progress@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/progress/-/progress-2.0.0.tgz#8a1be366bf8fc23db2bd23f10c6fe920b4389d1f"
 
-promise-wtf@^1.2.2:
+promise-wtf@^1.2.4:
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/promise-wtf/-/promise-wtf-1.2.4.tgz#8cbdd31ea10dee074fbb6387cbc96e413993376c"
 
